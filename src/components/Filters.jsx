@@ -35,9 +35,6 @@ export default function Filters({ filters, setFilters }) {
           <SelectValue placeholder="Price" />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="placeholder" disabled>
-            Price
-          </SelectItem>
           <SelectItem value="Rp 50.000">Rp 50.000</SelectItem>
           <SelectItem value="Rp 100.000">Rp 100.000</SelectItem>
           <SelectItem value="Rp 200.000">Rp 200.000</SelectItem>
